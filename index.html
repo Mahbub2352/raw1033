@@ -18,40 +18,216 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
+     <!-- frontawesome -->
+     <script src="https://kit.fontawesome.com/5cb44fa086.js"
+     crossorigin="anonymous"></script> 
   </head>
   <body>
     <header>
       <!-- header start -->
       <section class="header-background">
         <div class="d-flex">
-          <div class="text-light m-5">
-            <p>Computer-controlled digital transistorized with electronic advance</p>
-            <h1>Honda CBR 300R</h1>
-            <p>
-              Amet minim mollit non deserunt ullamco est sit aliqua
-              <br />
-              dolor do amet sint. Velit officia consequat duis enim velit
-              <br />
-              mollit. Exercitation veniam consequat sunt nostrud amet.
-            </p>
-            <button class="button-header">Purchase</button>
-          </div>
-          <div class="">
-            <img src="images/header-bike.png" class="w-100" alt="" />
-          </div>
+            <div class="text-light m-5">
+                <p>Computer-controlled digital transistorized with
+                    electronic advance</p>
+                <h1>Honda CBR 300R</h1>
+                <p>Honda has been the world's largest motorcycle manufacturer.
+                    <br>
+                    Honda was the first Japanese automobile manufacturer.
+                    <br> Honda also manufactures garden equipment, marine engines.</p>
+                <!-- <button class="button-header">Purchase</button> -->
+                <!-- experimentalplace start -->
+                <!-- Button trigger modal -->
+                    <div>
+                        <!-- Button trigger modal -->
+                      <button type="button" class="btn button-header" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                          Purchase
+                        </button>
+                        
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                          <div class="modal-dialog">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                              </div>
+                              <div class="modal-body">
+                                ...
+                              </div>
+                              <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary">Save changes</button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                <!-- experimentalplace end -->
+            </div>
+            <div class="">
+                <img src="images/header-bike.png" class="w-100" alt="">
+            </div>
+
         </div>
       </section>
     </header>
     <!-- main start -->
     <main>
-      <!-- fetures bike section  -->
-      <section class="feture-bike m-5">
-        <div class="d-flex justify-content-center">
-          <div>
-            <h1 class="fw-bolder">Fetured Bikes 2021</h1>
-            <p class="text-center text-primary-color">Best bike collection</p>
+      <!-- fetures bike section info  -->
+      <section>
+        <div class="container">
+          <div class="d-flex justify-content-center pt-5">
+            <div>
+              <h2 class="fw-bolder">Fetured Bikes 2021</h2>
+              <p class="text-center text-primary-color">Best bike collection</p>
+            </div>
           </div>
+          
+          <!-- Added grayscale images -->
+  
+            <div class="d-flex justify-content-between pt-5">
+              <div class="bike">
+                  <img height="243px" width="288px"
+                      src="images/feature-bike.jpg" alt="">
+  
+              </div>
+              <div>
+                  <img height="243px" width="288px"
+                      src="images/feature-bike.jpg" alt="">
+  
+              </div>
+              <div class="bike">
+                  <img height="243px" width="288px"
+                      src="images/feature-bike.jpg" alt="">
+  
+              </div>
+  
+            </div>
+  
+          
         </div>
+      </section>
+      <!-- Happy Clients says -->
+      <section>
+         <!-- container2 -->
+
+         <div class="container py-5">
+          <div class="d-flex justify-content-center gap-2 p-4">
+              <div>
+                  <h2 class="fw-bold">Happy</h2>
+              </div>
+              <div class=" text-primary-color fw-bolder">
+                  <h2>Clients says</h2>
+              </div>
+          </div>
+
+          <!-- card  -->
+
+          <div class="d-flex justify-content-center gap-5">
+
+              <!-- card  1-->
+
+              <div class="card d-flex align-items-center p-5 image-background-color">
+                  <img width="149px" height="149px"
+                      src="images/user-1.png" alt="">
+                  <p class="text-center">
+                      Slate helps you see how many more days you need to
+                      work to reach your financial goal for the
+                      month
+                      and year.
+                  </p>
+                  <div class="py-3">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="far fa-star"></i>
+                  </div>
+                  <div>
+                      <p class="fw-bold identity">
+                          Regina Miles
+
+                      </p>
+                  </div>
+                  <div>
+                      <p class="fw-bold">
+                          Banker
+                      </p>
+                  </div>
+
+                  <!-- card 2 -->
+
+              </div>
+              <div class="card d-flex align-items-center p-5 image-background-color">
+                  <img width="149px" height="149px"
+                      src="images/user-2.png" alt="">
+                  <p class="text-center">
+                      Slate helps you see how many more days you need to
+                      work to reach your financial goal for the
+                      month
+                      and year.
+                  </p>
+                  <div class="py-3">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="far fa-star"></i>
+                  </div>
+                  <div>
+                      <p class="fw-bold identity">
+                          Regina Miles
+
+                      </p>
+                  </div>
+                  <div>
+                      <p class="fw-bold">
+                          Banker
+                      </p>
+                  </div>
+
+                  <!-- card 3 -->
+
+              </div>
+              <div class="card d-flex align-items-center p-5 image-background-color">
+                  <div class="card-3">
+                      <img width="149px" height="149px"
+                          src="images/user-3.jpg" alt="">
+                  </div>
+
+                  <p class="text-center">
+                      Slate helps you see how many more days you need to
+                      work to reach your financial goal for the
+                      month
+                      and year.
+                  </p>
+                  <div class="py-3">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="far fa-star"></i>
+                  </div>
+                  <div>
+                      <p class="fw-bold identity">
+                          Regina Miles
+
+                      </p>
+                  </div>
+                  <div>
+                      <p class="fw-bold">
+                          Banker
+                      </p>
+                  </div>
+              </div>
+
+
+          </div>
+
+          <!-- card end -->
+
+
       </section>
     </main>
     <footer></footer>
